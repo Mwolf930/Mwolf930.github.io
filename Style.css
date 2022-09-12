@@ -5,19 +5,19 @@
   }
   
   .link:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #404040;
   }
   
   body {
-    background-color: #8EBEBE;
+    background-color: #BEBEBE;
     font-family: Trebuchet MS;
     color: #303030;
   }
 
 .nav-upper {
     overflow: hidden;
-    background-color: #35c2c2;
+    background-color: #CDCDCD;
     border-radius: 5px;
   }
 
@@ -34,11 +34,13 @@
 
   .nav-upper a:hover {
     background-color: #1abeca;
+    text-decoration: underline;
     color: black;
   }
 
-  .nav-upper a.active {
+  .nav-upper a:active {
     background-color: #2196F3;
+    text-decoration: underline;
     color: white;
   }
 
