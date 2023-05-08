@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #100d19;
+    background-image: radial-gradient(rgb(87, 87, 87) 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.small {
+    font-size: xx-small;
+    color: rgb(56, 39, 66);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sidebar {
+    position: fixed;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #241d38;
+    background: #1b162a;
+    color: rgb(125, 125, 125);
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+}
+
+.sidebar h6 {
+    position: inherit;
+    z-index: 2;
+}
+
+.sidebar h2 {
+    background: #201a32;
+    border: 1px solid #241d38;
+    padding: 10px;
+    border-radius: 0 20px 0 0;
+    margin: 0;
+}
+.container {
+    height: 500px;
+    width: 900px;
+    margin: 150px auto;
+    position: fixed;
+}
+
+.glass-card {
+    right: 50px;
+    position: fixed;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    opacity: 0.75;
+    color: rgb(137, 137, 137);
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32 0 rgba(0, 0, 0 .37);
+    display: block;
+}
+
+.glass-card img {
+    z-index: 2;
+    justify-content: center;
+    border-radius: 20px;
+    height: 250px;
+    border: 2px solid #241d38;
+    align-self: left;
+}
