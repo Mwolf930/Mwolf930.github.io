@@ -76,7 +76,7 @@ h1 {
 .glass-card img {
     z-index: 2;
     border-radius: 10px;
-    height: 17vh;
+    height: 20vh;
     border: 2px solid #241d38;
     align-self: left;
 }
