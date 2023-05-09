@@ -56,6 +56,7 @@ h1 {
 }
 
 .glass-card {
+    margin-left: 25px;
     right: 50px;
     position: inherit;
     height: 35vh;
