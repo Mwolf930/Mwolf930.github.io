@@ -58,6 +58,7 @@ h1 {
 .glass-card {
     right: 50px;
     position: fixed;
+    height: 50vh;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -73,9 +74,8 @@ h1 {
 
 .glass-card img {
     z-index: 2;
-    justify-content: center;
-    border-radius: 20px;
-    height: 250px;
+    border-radius: 10px;
+    height: 17vh;
     border: 2px solid #241d38;
     align-self: left;
 }
